@@ -1,6 +1,6 @@
 # SAXS-Graphs
 Regain control of your SAXS data
- Jean-Marie Bourhis (jean-marie.bourhis@ibs.fr) and GPT via mac-gpt (because I'm a "tanche" (kind of fish) with python)
+ Jean-Marie Bourhis and GPT via mac-gpt (because I'm a "tanche" (kind of fish) with python)
  2023
  This Python script is designed to process SAXS (Small Angle X-ray Scattering) data and to generate results such as the Guinier approximation, the Kratky graph and the correlation volume.
 
