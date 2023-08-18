@@ -33,7 +33,7 @@ python Sexier-vXX.py filename.dat qmin_offset qmax_offset
  - Display Kratky graph.
 
  3. Correlation volume (CV):
- - Extract data up to q=0.3.
+ - Extract data up to q=0.3 or up to 8/Rg.
  Calculate the integral of the product I(q)*q.
  - Calculation of VC, QR (quality factor) and MW (molecular weight).
  - Write data to text file.
