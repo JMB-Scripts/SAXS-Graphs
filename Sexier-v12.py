@@ -298,7 +298,7 @@ plt.show()
 # Display graph of standardized residuals
 plt.figure(figsize=(10, 4))
 plt.plot(q_range, residuals, 'o', markersize=4)
-plt.xlabel('q^2')
+plt.xlabel('q**2')
 plt.ylabel('Guinier normalised residuals')
 plt.title('Guinier normalised residuals')
 plt.grid(True)
