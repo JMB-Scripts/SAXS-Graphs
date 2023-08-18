@@ -49,12 +49,12 @@ python Sexier-vXX.py filename.dat qmin_offset qmax_offset
  - file_name_Summary.txt: summary file (Rg, I0, qmin_Rg, qmax_Rg, MW)
 ## Plots:
   1- Guinier Fit
-  ![Figure_1-Fit](https://github.com/JMB-Scripts/SAXS-Graphs/assets/20182399/8b7ea59e-f5c3-437c-9312-c8a11156cf73)
-  2- Residuals of the fit (check aggregation and or repulsion)
-  ![Figure_norm-resi](https://github.com/JMB-Scripts/SAXS-Graphs/assets/20182399/e1c384b8-3fd7-4b96-afeb-a7b9ec4992d2)
-  3- Normalised Kratky plot
-  ![Figure_norm-krat](https://github.com/JMB-Scripts/SAXS-Graphs/assets/20182399/9e424634-d2a7-49dd-bf78-b382b2976fef)
-  4- plot of the Volume of correlation 
-  ![Figure_VC](https://github.com/JMB-Scripts/SAXS-Graphs/assets/20182399/8a06ca38-cf70-4268-a569-f127e9b673fc)
+  ![A](https://github.com/JMB-Scripts/SAXS-Graphs/assets/20182399/24626192-5b31-4a10-a419-ea72e464a43f)
 
+  2- Residuals of the fit (check aggregation and or repulsion, here looks nice)
+  ![B](https://github.com/JMB-Scripts/SAXS-Graphs/assets/20182399/4418c9b9-487a-4654-8dc3-51bfd1fd9f0f)
+  3- Normalised Kratky plot (presence of disordered regions)
+ ![C](https://github.com/JMB-Scripts/SAXS-Graphs/assets/20182399/b2728781-e304-4ace-bf31-9af1b3a7de5d)
+  4- Plot of the Volume of correlation (evaluate the q max for MW determination)
+![D](https://github.com/JMB-Scripts/SAXS-Graphs/assets/20182399/dd2c0f66-e649-414f-8043-793522d89f7e)
  Jean-Marie Bourhis and GPT via mac-gpt (because I'm a "tanche" with Python)
