@@ -293,6 +293,7 @@ plt.ylabel('ln(I(q))')
 plt.legend()
 plt.title('Guinier')
 plt.grid(True)
+plt.savefig('guinier_graph.png')  # Save the graph as a PNG image
 plt.show()
 
 # Display graph of standardized residuals
@@ -302,6 +303,7 @@ plt.xlabel('q**2')
 plt.ylabel('Guinier normalised residuals')
 plt.title('Guinier normalised residuals')
 plt.grid(True)
+plt.savefig('residuals_graph.png')  # Save the graph as a PNG image
 plt.show()
 
 #  Draw the graph Kratky normalised
@@ -310,6 +312,7 @@ plt.xlabel('(qRg)^2')
 plt.ylabel('(qRg)^2 * I(q) / I(0)')
 plt.title('Normalised Kratky Plot')
 plt.grid(True)
+plt.savefig('Normalised Kratky Plot.png')  # Save the graph as a PNG image
 plt.show()
 
 #  Draw the graph VC
@@ -318,4 +321,5 @@ plt.xlabel('(qRg)^2')
 plt.ylabel('(qRg)^2 * I(q) / I(0)')
 plt.title('Volume of Correlation')
 plt.grid(True)
+plt.savefig('vc_graph.png')  # Save the graph as a PNG image
 plt.show()
