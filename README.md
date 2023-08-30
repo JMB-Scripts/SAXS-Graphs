@@ -1,7 +1,7 @@
 # SAXS-Graphs
-Regain control of your SAXS data
-This Python script is designed to process SAXS (Small Angle X-ray Scattering) data and to generate results such as the Guinier approximation, the Kratky graph and the volume of correlation.
-
+Regain control of your SAXS data.
+This Python script is designed to process SAXS (Small Angle X-ray Scattering) data and to generate results such as the Guinier approximation, the Kratky graph and the volume of correlation in a text file format.
+Then you can make YOUR OWN representations for these graphs, with YOUR preferred software (Excel, Prism, Origin etc.). 
 ## User manual
 
 # Prerequisites
@@ -14,8 +14,8 @@ This Python script is designed to process SAXS (Small Angle X-ray Scattering) da
 python Sexier-vXX.py filename.dat qmin_offset qmax_offset
 
 - `filename.dat` : the name of the .dat file containing the SAXS experimental data.
-- `qmin_offset` : the offset (in a number of lines) to be added to the first usable line to determine qmin, use the value from PRIMUS or RAW.
-- `qmax_offset`: the offset (in a number of lines) to be added to the first usable line to determine qmax use the value from PRIMUS or RAW.
+- `qmin_offset` : the offset (in a number of lines) to be added to the first usable line to determine qmin, use the value from PRIMUS (Range) or RAW (nmin).
+- `qmax_offset`: the offset (in a number of lines) to be added to the first usable line to determine qmax use the value from PRIMUS (Range) or RAW ((nmax).
 
 ## Features
 
