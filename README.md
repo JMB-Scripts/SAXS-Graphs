@@ -15,7 +15,7 @@ python Sexier-vXX.py filename.dat qmin_offset qmax_offset
 
 - `filename.dat` : the name of the .dat file containing the SAXS experimental data.
 - `qmin_offset` : the offset (in a number of lines) to be added to the first usable line to determine qmin, use the value from PRIMUS (Range) or RAW (nmin).
-- `qmax_offset`: the offset (in a number of lines) to be added to the first usable line to determine qmax use the value from PRIMUS (Range) or RAW ((nmax).
+- `qmax_offset`: the offset (in a number of lines) to be added to the first usable line to determine qmax use the value from PRIMUS (Range) or RAW (nmax).
 
 ## Features
 
