@@ -47,6 +47,12 @@ python Sexier-vXX.py filename.dat qmin_offset qmax_offset
  - file_name_Normalized-Kratky.txt: data for normalized Kratky (x, y)
  - nom_du_fichier_VC.txt: data for VC (q, I(q)*q)
  - file_name_Summary.txt: summary file (Rg, I0, qmin_Rg, qmax_Rg, MW)
+   
+## Notes:
+1. It's possible to make an exe file for Windows using "pyinstaller", to distribute the script on computers without Python.
+   
+2. I can also provide the stand-alone version for Windows upon request. 
+
 ## Plots:
   1- Guinier Fit
   ![A](https://github.com/JMB-Scripts/SAXS-Graphs/assets/20182399/24626192-5b31-4a10-a419-ea72e464a43f)
