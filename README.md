@@ -58,5 +58,3 @@ python Sexier-vXX.py filename.dat qmin_offset qmax_offset
   4- Plot of the Volume of correlation (evaluate the q max for MW determination)
   ![D](https://github.com/JMB-Scripts/SAXS-Graphs/assets/20182399/dd2c0f66-e649-414f-8043-793522d89f7e)
  
- 
- Jean-Marie Bourhis
