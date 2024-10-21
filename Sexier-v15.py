@@ -354,10 +354,19 @@ ax_vc.text(0.4, 0.65, vc_text2,
 
 ##########
 # Calculate cumulative integral of q * I(q) with respect to q
-q_integral_cumulative = [integrate.simps(I_full[:i] * q_full[:i], q_full[:i]) for i in range(1, len(q_full))]
+q_integral_cumulative = [integrate.simps(I_full[:i] * q_full[:i], q_full[:i]) for i in range(1, len(q_full) + 1)]
+
+# Specify output file name for cumulative integral
+cumulative_integral_output_file = f'{source_file_prefix}_cumulative_integral.txt'
+
+# Save cumulative integral values to a text file
+with open(cumulative_integral_output_file, 'w') as file:
+    file.write("q\tCumulative Integral\n")  # Header
+    for i in range(len(q_full)):
+        file.write(f"{q_full[i]}\t{q_integral_cumulative[i]:.6f}\n")  # Save q and cumulative integral
 
 # Plot the cumulative integral on the right y-axis
-ax_integral.plot(q_full[1:], q_integral_cumulative, color='mediumvioletred', label='Cumulative Integral')
+ax_integral.plot(q_full, q_integral_cumulative, color='mediumvioletred', label='Cumulative Integral')
 ax_integral.set_ylabel('Integral of qI(q) dq', color='mediumvioletred')
 ax_integral.tick_params(axis='y', labelcolor='mediumvioletred')
 
