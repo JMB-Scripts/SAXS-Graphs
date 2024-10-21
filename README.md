@@ -45,22 +45,19 @@ python Sexier-vXX.py filename.dat qmin_offset qmax_offset
  The script will generate the following files:
  - filename_rg.txt: Guinier approximation data (q^2, ln(I_exp), ln(I_theo), normalized residuals)
  - file_name_Normalized-Kratky.txt: data for normalized Kratky (x, y)
- - nom_du_fichier_VC.txt: data for VC (q, I(q)*q)
+ - file_name_VC.txt: data for VC (q, I(q)*q)
  - file_name_Summary.txt: summary file (Rg, I0, qmin_Rg, qmax_Rg, MW)
+
+![image](https://github.com/user-attachments/assets/e1155d9f-36c8-4d87-968b-0bbe50d49973)
    
+## Plots:
+  1- Guinier Fit (Rg, I(0), qmin*Rg qmax*Rg,nbeg, nend) 
+  2- Residuals of the fit (check aggregation and or repulsion, here looks nice)
+  3- Normalised Kratky plot (presence of disordered regions)
+  4- Plot of the Volume of correlation and cumulative integral (evaluate the q max for MW determination)
+  
+![image](https://github.com/user-attachments/assets/a5c137c3-fd36-4dc0-9e65-fe48037712da)
+
 ## Notes:
 1. It's possible to make an exe file for Windows using "pyinstaller", to distribute the script on computers without Python.
-   
 2. I can also provide the stand-alone version for Windows upon request. 
-
-## Plots:
-  1- Guinier Fit
-  ![A](https://github.com/JMB-Scripts/SAXS-Graphs/assets/20182399/24626192-5b31-4a10-a419-ea72e464a43f)
-
-  2- Residuals of the fit (check aggregation and or repulsion, here looks nice)
-  ![B](https://github.com/JMB-Scripts/SAXS-Graphs/assets/20182399/4418c9b9-487a-4654-8dc3-51bfd1fd9f0f)
-  3- Normalised Kratky plot (presence of disordered regions)
-  ![C](https://github.com/JMB-Scripts/SAXS-Graphs/assets/20182399/b2728781-e304-4ace-bf31-9af1b3a7de5d)
-  4- Plot of the Volume of correlation (evaluate the q max for MW determination)
-  ![D](https://github.com/JMB-Scripts/SAXS-Graphs/assets/20182399/dd2c0f66-e649-414f-8043-793522d89f7e)
- 
