@@ -357,7 +357,7 @@ ax_vc.text(0.4, 0.65, vc_text2,
 q_integral_cumulative = [integrate.simps(I_full[:i] * q_full[:i], q_full[:i]) for i in range(1, len(q_full) + 1)]
 
 # Specify output file name for cumulative integral
-cumulative_integral_output_file = f'{source_file_prefix}_cumulative_integral.txt'
+cumulative_integral_output_file = f'{source_file_prefix}_06_cumulative_integral.txt'
 
 # Save cumulative integral values to a text file
 with open(cumulative_integral_output_file, 'w') as file:
