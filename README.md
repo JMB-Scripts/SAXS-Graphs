@@ -36,6 +36,7 @@ python Sexier-vXX.py filename.dat qmin_offset qmax_offset
  - Extract data up to q=0.3 or up to 8/Rg.
  Calculate the integral of the product I(q)*q.
  - Calculation of VC, QR (quality factor) and MW (molecular weight).
+ - calculation of the Mw from Porod using SAXSMOW approach with a cut at 8/Rg
  - Write data to text file.
 
  4. Summary file:
@@ -48,15 +49,16 @@ python Sexier-vXX.py filename.dat qmin_offset qmax_offset
  - file_name_VC.txt: data for VC (q, I(q)*q)
  - file_name_Summary.txt: summary file (Rg, I0, qmin_Rg, qmax_Rg, MW)
 
-![image](https://github.com/user-attachments/assets/e1155d9f-36c8-4d87-968b-0bbe50d49973)
+![image](https://github.com/user-attachments/assets/834edc29-8e5a-4ac1-9952-096e2127d903)
+
    
 ## Plots:
-  1- Guinier Fit (Rg, I(0), qmin*Rg qmax*Rg,nbeg, nend) 
-  2- Residuals of the fit (check aggregation and or repulsion, here looks nice)
+  1- Form factor
+  2- Guinier Fit (Rg, I(0), qmin*Rg qmax*Rg,nbeg, nend) & Residuals of the fit (check aggregation and or repulsion, here looks nice)
   3- Normalised Kratky plot (presence of disordered regions)
   4- Plot of the Volume of correlation and cumulative integral (evaluate the q max for MW determination)
-  
-![image](https://github.com/user-attachments/assets/a5c137c3-fd36-4dc0-9e65-fe48037712da)
+
+![Capture d’écran 2024-10-25 à 13 39 00](https://github.com/user-attachments/assets/3e07d5a6-09f5-4b3b-9b10-cd18248121e5)
 
 ## Notes:
 1. It's possible to make an exe file for Windows using "pyinstaller", to distribute the script on computers without Python.
