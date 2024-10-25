@@ -36,7 +36,7 @@ python Sexier-vXX.py filename.dat qmin_offset qmax_offset
  - Extract data up to q=0.3 or up to 8/Rg.
  Calculate the integral of the product I(q)*q.
  - Calculation of VC, QR (quality factor) and MW (molecular weight).
- - calculation of the Mw from Porod using SAXSMOW approach with a cut at 8/Rg
+ - Calculation of the Mw from Porod using SAXSMOW approach with a cut at 8/Rg
  - Write data to text file.
 
  4. Summary file:
@@ -44,10 +44,11 @@ python Sexier-vXX.py filename.dat qmin_offset qmax_offset
 
 ## Output
  The script will generate the following files:
- - filename_rg.txt: Guinier approximation data (q^2, ln(I_exp), ln(I_theo), normalized residuals)
- - file_name_Normalized-Kratky.txt: data for normalized Kratky (x, y)
- - file_name_VC.txt: data for VC (q, I(q)*q)
- - file_name_Summary.txt: summary file (Rg, I0, qmin_Rg, qmax_Rg, MW)
+ - filename_01_Rg.txt: Guinier approximation data (q^2, ln(I_exp), ln(I_theo), normalized residuals)
+ - file_name_02_Norm-Kratky.txt: data for normalized Kratky (x, y)
+ - file_name_03_VC.txt: data for VC (q, I(q)*q)
+ - file_name_04_VC_integral.txt: data for VC
+ - file_name_05_Summary.txt: summary file (Rg, I0, qmin_Rg, qmax_Rg, MW)
 
 ![image](https://github.com/user-attachments/assets/834edc29-8e5a-4ac1-9952-096e2127d903)
 
@@ -55,8 +56,8 @@ python Sexier-vXX.py filename.dat qmin_offset qmax_offset
 ## Plots:
   1- Form factor
   2- Guinier Fit (Rg, I(0), qmin*Rg qmax*Rg,nbeg, nend) & Residuals of the fit (check aggregation and or repulsion, here looks nice)
-  3- Normalised Kratky plot (presence of disordered regions)
-  4- Plot of the Volume of correlation and cumulative integral (evaluate the q max for MW determination)
+  3- Normalised Kratky plot (here presence of disordered regions)
+  4- Plot of the Volume of correlation and cumulative integral (MW determination at 0.3, 8/Rg and from Porod cut at 8/Rg)
 
 ![Capture d’écran 2024-10-25 à 13 39 00](https://github.com/user-attachments/assets/3e07d5a6-09f5-4b3b-9b10-cd18248121e5)
 
